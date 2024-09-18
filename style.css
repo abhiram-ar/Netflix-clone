@@ -112,6 +112,42 @@ nav{
     border: 1px solid rgb(79, 79, 79);
 }
 
+.arc{
+    position: absolute;
+    margin-top: -2em ;
+    /* position: absolute;
+    bottom: 0px;
+    left: 0px; */
+    background-color: red;
+    height: 10em;
+    margin-left:0 -9vw;
+    width: 100%;
+    border-radius: 45% 45% 0 0;
+    z-index: -10;
+}
+
+.inner-arc{
+    background-color: black;
+    height: 10em;
+    margin-left:0 -10vw;
+    width: 100%;
+    border-radius: 41% 41% 0 0;
+    position: relative;
+    top:0.3em;
+    box-shadow: inset 0px 5px 3em -5px rgb(35, 35, 148)  ;
+}
+
+.coverup{
+    height: 10em;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    top:-8em;
+    border-radius: 20% ;
+}
+
+
+
 
 
 
